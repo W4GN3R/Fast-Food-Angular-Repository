@@ -1,41 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
 
-.title {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    font-family: 'Lato', sans-serif;
-    align-items: center;
-}
-
-.title img {
-    width: 200px;
-    height: 100%;
-    display: block;
-}
-
-.wrapper-menu {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    font-family: 'Lato', sans-serif;
-}
-
-p.text-menu {
-    width: 20%;
-    text-align: center;
-    padding: 50px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 800;
-    letter-spacing: 1px;
-}
-
-p.text-menu img {
-    width: 260px;
-    height: auto;
-    display: inline-block;
-    vertical-align: top;
-}
 .title:before {
     content: "";
     width: 73%;
@@ -47,11 +10,4 @@ p.text-menu img {
     background: -webkit-linear-gradient(left, #000 0%,#000 48%,#ed171e 80%,#ed171e 100%);
     background: linear-gradient(to right, #000 0%,#000 48%,#ed171e 80%,#ed171e 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000', endColorstr='#ed171e',GradientType=1 );
-}
-
-@media only screen and (max-width: 600px) {
-    .wrapper-menu .text-menu {
-        width: 100%;
-        padding: 0 50px;
-    }
 }

@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+}
+
+
+.wrapper-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Lato', sans-serif;
+}
+
+p.text-menu {
+    width: 20%;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+img {
+    width: 260px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper-menu .text-menu {
+        width: 100%;
+        padding: 0 50px;
+    }
+}

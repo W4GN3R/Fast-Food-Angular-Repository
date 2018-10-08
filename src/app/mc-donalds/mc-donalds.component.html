@@ -2,10 +2,5 @@
   <img src="../src/assets/images/macdonalds.png" alt="" class="mc">
 </div>
 <div class="wrapper-menu">
-  <p class="text-menu"> <img src="../src/assets/images/triplo_quarterao.png" alt="" class="lanche">  TRIPLO QUARTERÃO</p>
-  <p class="text-menu"> <img src="../src/assets/images/egg_quarterao.png" alt="" class="lanche">  EGG QUARTERÃO</p>
-  <p class="text-menu"> <img src="../src/assets/images/triplo_tasty.png" alt="" class="lanche">  TRIPLO QUARTERÃO</p>
-  <p class="text-menu"> <img src="../src/assets/images/big_tasty.png" alt="" class="lanche">  Big Tasty</p>
-  <p class="text-menu"> <img src="../src/assets/images/mcnifico_bacon.png" alt="" class="lanche">  McNÍFICO BACON</p>
-  <p class="text-menu"> <img src="../src/assets/images/duplo_quarterao.png" alt="" class="lanche">  DUPLO QUARTERÃO</p>
+  <p class="text-menu" *ngFor="let hamburger of lanches"> <img src="{{hamburger.image}}" alt="{{hamburger.name}}" title="{{hamburger.name}}" class="lanche">{{hamburger.name}}</p>
 </div>
